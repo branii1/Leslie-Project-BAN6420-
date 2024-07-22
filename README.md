@@ -1,17 +1,22 @@
 # Leslie-Project-BAN6420-
-All Module Assignments for BAN6420
-Module 2 Assignment
-Instructions
-1. Ensure you have the `salary_data.csv` file in the same directory as the Jupyter Notebook.
-2. Run the Jupyter Notebook to import data, process it, and export employee details.
-3. Use the `get_employee_details` function to get details of an employee.
-4. Use the `export_employee_details` function to export and zip employee details.
+# Policy Management System
 
-# R
-1. Ensure you have R and the `readr` package installed.
-2. Place the R script in the same directory as the `Employee_Profile.zip` file.
-3. Run the R script to unzip the folder and display the employee data.
-# Python
-- pandas
-# R
-- readr
+## Description
+
+This project is a simple policy management system for an insurance company to manage policyholders, products, and payments.
+
+## Files
+
+- `policyholder.py`: Defines the `Policyholder` class.
+- `product.py`: Defines the `Product` class.
+- `payment.py`: Defines the `Payment` class.
+- `main.py`: Demonstrates the functionality by creating policyholders, products, and payments.
+
+## Usage
+
+1. Clone the repository or download the ZIP file.
+2. Ensure all Python files (`policyholder.py`, `product.py`, `payment.py`, and `main.py`) are in the same directory.
+3. Run `main.py` to see the demonstration.
+
+```bash
+python main.py
