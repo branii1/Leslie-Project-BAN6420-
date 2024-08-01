@@ -3,12 +3,12 @@ library(ggplot2)
 library(readr)
 
 # Load the dataset
-df <- read_csv("Netflix_shows_movies/netflix_titles.csv")
+df <- read_csv("netflix_data.csv")
 
 # Most watched genres
-ggplot(df, aes(y = reorder(genre, -..count..))) +
+ggplot(df, aes(y = reorder(type, -..count..))) +
   geom_bar() +
-  labs(title = "Most Watched Genres", x = "Number of Shows/Movies", y = "Genre") +
+  labs(title = "Most Watched Genres", x = "Number of Shows/Movies", y = "type") +
   theme_minimal()
 
 # Ratings distribution
